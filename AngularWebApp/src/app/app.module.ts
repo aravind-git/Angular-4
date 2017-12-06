@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { CourseComponent } from './course.component';
-
+import { CourseComponent } from './course/course.component';
 
 @NgModule({
   declarations: [
-    AppComponent,CourseComponent
+    AppComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule
